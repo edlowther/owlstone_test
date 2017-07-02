@@ -1,5 +1,5 @@
 # Running the code
-The project is built using Python 3.4 and has no non-standard library dependencies. You should be able to download or clone the project and run the code from its parent directory by executing 'python owlstone_test' on the command line. I have tested it on Windows and OSX. 
+The project is built using Python 3.4 and has no non-standard library dependencies. You should be able to download or clone the project and run the code from its parent directory by executing 'python owlstone_test' on the command line. (Nb the project folder needs to be called 'owlstone_test' and not, say, 'owstone_test-master' or similar for the server to work correctly.) I have tested it on Windows and OSX. 
 
 # What it does
 The Python scripts analyse 30 text files, 10 from each of three different news publishers, which are saved as part of the project, and derives a number of statistical results based on their content, including: 
