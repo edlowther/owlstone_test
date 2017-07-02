@@ -74,7 +74,6 @@
         $('svg').attr('width', $('.container').width());
 
         d3.json("../../owlstone_test/data/publisher_data.json", function (data) {
-            console.log(data[0]);
             data = data.sort(function (a, b) {
                 return d3.ascending(a.average_word_count_by_article, b.average_word_count_by_article);
             })
