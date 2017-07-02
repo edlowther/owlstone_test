@@ -1,7 +1,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 class Handler(BaseHTTPRequestHandler):
-    """Serves files from the project as requested by the network."""
+    """Serves files from the project as requested on the network."""
     def do_GET(self):
         path = './owlstone_test' + self.path
         if self.path == '/':

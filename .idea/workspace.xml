@@ -12,7 +12,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="__main__.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__main__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -24,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simple_server.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="simple_server.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/owlstone_test/simple_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="78" lean-forward="false" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+            <state relative-caret-position="63">
+              <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -96,9 +96,9 @@
         <option value="$PROJECT_DIR$/owlstone_test/read_files.py" />
         <option value="$PROJECT_DIR$/owlstone_test/article.py" />
         <option value="$PROJECT_DIR$/owlstone_test/json_exporter.py" />
-        <option value="$PROJECT_DIR$/owlstone_test/simple_server.py" />
         <option value="$PROJECT_DIR$/owlstone_test/publisher.py" />
         <option value="$PROJECT_DIR$/__main__.py" />
+        <option value="$PROJECT_DIR$/owlstone_test/simple_server.py" />
       </list>
     </option>
   </component>
@@ -351,14 +351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/owlstone_test/simple_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="78" lean-forward="false" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/owlstone_test/json_exporter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -382,6 +374,14 @@
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owlstone_test/simple_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
