@@ -22,9 +22,7 @@ It also doesn't yet perform any sort of significance test on the derived statist
 # What considerations should be taken into account when building such tools?
 
 1. **Who is going to be using the tool and why?**
-I have produced a tool that performs some analysis on pre-prepared articles and surfaces some conclusions about them. 
-
-But it may be that users of the tool would need to submit other articles for analysis via the network and run the analysis again, or filter the conclusions in some way, e.g. by publisher. These are features that could be added were more time available. 
+I have produced a tool that performs some analysis on pre-prepared articles and surfaces some conclusions about them. But it may be that users of the tool would need to submit other articles for analysis via the network and run the analysis again, or filter the conclusions in some way, e.g. by publisher. These are features that could be added were more time available. 
 
 2. **Is the code well documented and comprehensible to other developers who might need to work on it?**
 The project will at present work in only one very specific set of circumsances, and would need a significant amount of refactoring if it was required to work in other ways. For example, if we were to enable users of the web interface to submit text over the network, the read_files module would need to be quite different. A system of generic classes that could be inherited from and customised depending on these sorts of requirements would help with this. 
